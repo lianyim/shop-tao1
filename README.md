@@ -19,6 +19,7 @@
         美团、饿了么领红包
         等等
 
+gitee地址：https://gitee.com/lianyiming/shop-tao.git
 ### 核心技术
 #### 依赖
 - mysql5.7
