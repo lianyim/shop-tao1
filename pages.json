@@ -1,0 +1,192 @@
+{
+  "pages": [
+	 
+	{
+	   "path": "pages/index/index",
+	   "style": {
+		   "enablePullDownRefresh": true,
+		   "navigationBarTitleText": "连连 store"
+		   // "backgroundTextStyle": "dark"
+	   }
+	},
+    {
+      "path": "pages/collocation/index",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/collocation/detail",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/webview/index",
+      "style": {
+        "navigationStyle": "default",
+        "app-plus": {
+          "titleNView": {
+            "titleText": "加载中"
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/nine/nine",
+      "style": {
+		  "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/rank/rank",
+      "style": {
+		  "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/halfPrice/index",
+      "style": {
+		  "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/product/product",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/collect/collect",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/user/user",
+      "style": {
+		  // "navigationStyle": "custom",
+		  "navigationBarTitleText": "我的主页"
+	  }
+    },
+    {
+      "path": "pages/public/guide",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/category/category",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/product/list",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/search/search",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/search/result",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/public/login",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/user/set",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+    {
+      "path": "pages/user/message",
+      "style": {
+		  "navigationStyle": "custom"
+	  }
+    },
+	{
+	   "path": "pages/liveshare/liveshare",
+	   "style": {
+		   "enablePullDownRefresh": true,
+		   "navigationBarTitleText": "作者日常"
+	   }
+	},
+	{
+	   "path": "pages/liveshare/detail",
+	   "style": {
+		   "navigationStyle": "custom"
+	   }
+	},
+	{
+	   "path": "pages/liveshare/all",
+	   "style": {
+		   "navigationStyle": "custom"
+	   }
+	},
+	{
+		 "path": "pages/video/videoList",
+		 "style": {
+			 "enablePullDownRefresh": true,
+			 "navigationBarTitleText": "杰伦演唱会"
+		 }
+	}
+	// ,
+	// {
+	//    "path": "pages/video/videoDetail",
+	//    "style": {
+	// 	   "navigationStyle": "custom"
+	//    }
+	// }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    // // "navigationBarTitleText": "Lian-shop",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+    // "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#000000",
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabar/首页 (未选中).png",
+        "text": "首页",
+        "selectedIconPath": "static/tabar/首页 (选中).png"
+      },
+      // {
+      //   "pagePath": "pages/category/category",
+      //   "iconPath": "static/tabar/类目 (未选中).png",
+      //   "text": "分类",
+      //   "selectedIconPath": "static/tabar/类目 (选中).png"
+      // },
+	  {
+	    "pagePath": "pages/liveshare/liveshare",
+	    "iconPath": "static/tabar/推荐 (未选中).png",
+	    "text": "足迹",
+	    "selectedIconPath": "static/tabar/推荐 (选中).png"
+	  },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab/my.png",
+        "text": "我的",
+        "selectedIconPath": "static/tab/my_cur.png"
+      }
+    ]
+  }
+}
